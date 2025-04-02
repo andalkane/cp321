@@ -12,7 +12,8 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 
  
-app = dash.Dash(__name__, server=app.server)
+app = dash.Dash(__name__)
+server=app.server
 
 #dataset from wiki
 wc_data = [
