@@ -11,7 +11,7 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 
-server = Dash(__name__)  
+ 
 app = dash.Dash(__name__, server=app.server)
 
 #dataset from wiki
